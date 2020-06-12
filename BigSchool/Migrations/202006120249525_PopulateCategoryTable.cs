@@ -11,10 +11,9 @@ namespace BigSchool.Migrations
             Sql("INSERT INTO CATEGORIES (ID, NAME) VALUES (2, 'Business')");
             Sql("INSERT INTO CATEGORIES (ID, NAME) VALUES (3, 'Marketing')");
         }
-
+        
         public override void Down()
         {
-
         }
     }
 }
