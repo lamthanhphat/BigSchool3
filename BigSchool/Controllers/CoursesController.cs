@@ -13,8 +13,8 @@ namespace BigSchool.Controllers
     {
         private readonly ApplicationDbContext _dbContext;
         public CoursesController ()
-        {
-            _dbContext = new ApplicationDbContext();
+          {
+            _dbContext = new ApplicationDbContext(); 
         }
         // GET: Courses
         [Authorize]
