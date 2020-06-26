@@ -21,7 +21,7 @@ namespace BigSchool.Controllers
         public AccountController()
         {
         }
-
+        //test
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
